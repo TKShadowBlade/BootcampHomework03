@@ -89,9 +89,8 @@ var password = ""
 function writePassword() {
   // write prompt for password length between 8 and 128 chars
 let pwLength = prompt("How many characters between 8 and 128?") 
-  if(pwLength=null){
-    alert("Error: Selection Invalid")
-  }
+
+  
 
 // write 4 confirms for character types lowercase, uppercase, numbers,
   // and special characters
@@ -133,8 +132,8 @@ let pwLength = prompt("How many characters between 8 and 128?")
 
   passwordText.value = password;
 
-  
 }
+
 function generatePassword(){}
 
 // Add event listener to generate button
